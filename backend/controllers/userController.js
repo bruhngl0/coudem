@@ -14,7 +14,7 @@ const signup = async(req,res)=>{
         })  
 
         if(user){
-            res.status(200).json({message: "user created"})
+            res.status(200).json({message: "user created d"})
         }
     }
 }
